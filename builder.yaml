@@ -1,0 +1,10 @@
+components:
+  - name: web
+    role: web
+    platform: nodejs
+    platformVersion: "22"
+    path: /
+    run:
+      port: 3000
+      start: npm start
+      healthCheckPath: /api/health
